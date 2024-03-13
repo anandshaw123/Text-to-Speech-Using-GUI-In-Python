@@ -2,20 +2,6 @@
 Python Project
 
 ### Creating a Project Using Python GUI 
-Using Various library like 
-<br>
-from tkinter import *
 
-from PIL import ImageTk,Image
-
-from tkinter import filedialog
-
-from tkinter.ttk import Combobox
-
-import pyttsx3
-
-import os
-
-import win32com.client
-
-</br>
+This Project Taking a input from the User and conver their words into voice, and their have 2 types of voice **Male** and **Female**,
+And it also has speed control like **slow medium fast**
