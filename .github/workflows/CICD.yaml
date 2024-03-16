@@ -17,8 +17,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix: #Project buield karna hai python 3.11 verion sysyem mein
-        os: [ubuntu-latest, window-latest] #operating system ke liye comfortable hai 
-        python-version: [ "3.8" ]  # kaun se version use karke project create ke rahe ho      
+        os: [window-latest] #operating system ke liye comfortable hai 
+        python-version: [ "3.9" ] ## which version you used to create python project      
 
     steps:
     - uses: actions/checkout@v3
